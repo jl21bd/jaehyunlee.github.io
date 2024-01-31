@@ -8,6 +8,7 @@ body {
 	font-family: 'Fira Code', 'Nanum Gothic Coding', monospace;
 	display: flex;
 	flex-flow: row;
+    background-color: #ece9c6; /*background */
 }
 
 body > header {
@@ -15,7 +16,7 @@ body > header {
 }
 
 body > header h1 {
-	width: 1.8em;
+	width: 1.5em;
 	font-size: 10em;
 	margin: 0 auto;
 }
@@ -36,7 +37,13 @@ body > header h1 {
 #home h1 {
     font-size: 10em;
     margin: 0;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.05em;
+}
+
+#home h2 {
+    font-size: 4em;
+    margin: 0;
+    margin-bottom: 0.2em;
 }
 
 #home nav a {
@@ -61,17 +68,39 @@ body > header h1 {
 	flex-flow: column;
 }
 
-#main > nav, #main > main {
-	padding: 15px;
-}
-
 #main > nav {
 	text-align: center;
+    padding: 15px;
+}
+
+#main nav a:hover, a:link, a:visited {
+    color: black;
+    text-decoration: underline; /* Adds underline on hover */
 }
 
 #main > main {
 	flex: 1;
 	margin-right: 25px;
+    padding: 15px;
 }
 
+
+/* list format*/
+
+#list article > header {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	margin-bottom: 0;
+}
+
+#list article h3 {
+	display: inline-block;
+	margin: 0.5em;
+}
+
+#list article header time {
+	color: gray;
+	white-space: nowrap;
+}
 
