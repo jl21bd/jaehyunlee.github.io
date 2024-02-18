@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>articles · Jaehyun</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!-- Linking to the external CSS file for styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header>
+        <h1>재현</h1>
+    </header>
+    <div id = "main">
+        <nav>
+            <a href="index.html">home</a> · 
+            <a href="projects.html">projects</a> · 
+            <a href="about.html">about</a>
+        </nav>
+        <main>
+           <article lang="en">
+	            <header>
+		              <h1>almond, January 2024</h1>
+			              <time datetime='2024-01-21T00:00:00&#43;02:00'>2024-01-21</time>
+                    <object 
+                        type="application/pdf"
+                        data="https://jl21bd.github.io/pdf/almond.pdf"
+                        width="600"
+                        height="700"></object>
+		          </header>
+            </article>
+          </div>
+      </main>
+    </div>
+</body>
+</html>
