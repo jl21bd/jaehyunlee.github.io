@@ -113,11 +113,10 @@ body > header h1 {
 
 #list article p {
 	color: rgb(26, 26, 26);
-	white-space: nowrap;
     font-size: 1.3em;
     margin-bottom: 0.5em;
-    width: auto;
-	display: inline;
+    word-wrap: break-word;
+    margin-right: 0;
 }
 
 /* span class = tab*/
