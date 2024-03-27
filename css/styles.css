@@ -88,6 +88,10 @@ body > header h1 {
     font-size: 3em;
 }
 
+#main > main > p{
+	display: inline;
+}
+
 
 /* list format*/
 
