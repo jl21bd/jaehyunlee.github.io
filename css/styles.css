@@ -124,3 +124,89 @@ body > header h1 {
     display: inline-block;
     margin-left: 1em;
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    body {
+        flex-flow: column;
+    }
+
+    body > header h1 {
+        font-size: 5em;
+        width: auto;
+    }
+
+    #home h1 {
+        font-size: 5em;
+    }
+
+    #home h2 {
+        font-size: 2em;
+    }
+
+    #home nav a {
+        margin: 0 10px;
+    }
+
+    #main > main > h1 {
+        font-size: 2em;
+    }
+
+    #list article > header {
+        flex-flow: column;
+    }
+
+    #list article header time {
+        font-size: 1em;
+        margin-left: 0;
+    }
+
+    #list article > header {
+        text-align: center;
+    }
+
+    #list article h3, #list article p {
+        font-size: 1em;
+        margin: 0.5em 0;
+        display: block; /* Make it a block-level element */
+        margin: 0 auto; /* Center the block element */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 0 10px;
+    }
+
+    body > header h1 {
+        font-size: 3em;
+        width: auto;
+    }
+
+    #home h1 {
+        font-size: 3em;
+    }
+
+    #home h2 {
+        font-size: 1.5em;
+    }
+
+    #home nav a {
+        margin: 0 5px;
+    }
+
+    #main > main > h1 {
+        font-size: 1.5em;
+    }
+
+    #list article > header {
+        text-align: center;
+    }
+
+    #list article h3, #list article p {
+        font-size: 0.8em;
+        margin: 0.5em 0;
+        display: block; /* Make it a block-level element */
+        margin: 0 auto; /* Center the block element */
+    }
+}
